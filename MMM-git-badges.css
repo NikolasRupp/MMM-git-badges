@@ -1,0 +1,19 @@
+#name_git {
+  font-size: 0.7rem;
+  white-space:nowrap;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#table_git{
+
+}
+
+#image_git{
+  display: block;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}

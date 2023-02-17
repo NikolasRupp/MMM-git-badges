@@ -1,0 +1,27 @@
+{
+  "name": "mmm-git-badges",
+  "version": "0.8",
+  "description": "MagicMirror module - show Github and Gitlab infos for Repositories with badges",
+  "main": "MMM-git-badges.js",
+  "keywords": [
+    "magic mirror",
+    "module",
+    "VW"
+  ],
+  "author": "NikolasRupp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NikolasRupp/MMM-git-badges/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikolasRupp/MMM-git-badges.git"
+  },
+  "dependencies": {
+  },
+  "homepage": "https://github.com/NikolasRupp/MMM-git-badges#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
