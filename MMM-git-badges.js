@@ -1,9 +1,7 @@
 Module.register("MMM-git-badges", {
   	// Default module config.
   	defaults: {
-    	conf: [{"user":"MichMich","repo":"MagicMirror","service":"github","fields":["issues","pull_requests","last_commit"]},
-    	{"user":"NikolasRupp","repo":"MMM-weconnectid","service":"github","fields":["issues","pull_requests","last_commit"]},
-    	{"user":"NikolasRupp","repo":"MMM-weconnectid-alt","service":"github","fields":["issues","pull_requests","last_commit"]}],
+    	conf: [{"user":"MichMich","repo":"MagicMirror","service":"github","fields":["issues","requests","last_commit"]}],
     	height: "20px",
     	minWidth: "150px",
     	updateInterval: 600000,
@@ -70,7 +68,7 @@ Module.register("MMM-git-badges", {
 						case "issues":
 							source = "https://img.shields.io/github/issues/" + this.config.conf[i]["user"] + "/" + this.config.conf[i]["repo"]
 							break;
-						case "pull_requests":
+						case "requests":
 							source = "https://img.shields.io/github/issues-pr/" + this.config.conf[i]["user"] + "/" + this.config.conf[i]["repo"]
 							break;
 						case "commit_activity":
@@ -106,7 +104,7 @@ Module.register("MMM-git-badges", {
 						case "issues":
 							source = "https://img.shields.io/gitlab/issues/open/" + this.config.conf[i]["user"] + "/" + this.config.conf[i]["repo"]
 							break;
-						case "merge_requests":
+						case "requests":
 							source = "https://img.shields.io/gitlab/merge-requests/open/" + this.config.conf[i]["user"] + "/" + this.config.conf[i]["repo"]
 							break;
 						case "last_commit":
